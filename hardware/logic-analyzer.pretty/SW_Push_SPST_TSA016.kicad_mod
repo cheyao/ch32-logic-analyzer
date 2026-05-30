@@ -1,0 +1,165 @@
+(footprint "SW_Push_SPST_TSA016"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a2292611-87cf-44cd-9540-93abb734b6b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_Push_SPST_TSA016"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7cfd704a-1162-43fa-9b1e-d5b320874cce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588944469014294528"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78609d19-df0b-481c-9e50-2bf6212a701d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LCSC C2888430"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8baab046-0076-41f8-be88-93b12595369f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.55 0.55)
+		(end -2.55 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4946ce0a-21cb-45e2-93c0-7ce8cc176f72")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "738f729a-94f5-4f52-bca2-c677b9e98a0f")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "00cc831a-6251-457b-b56a-e0645436ca01")
+	)
+	(fp_line
+		(start 2.55 -0.55)
+		(end 2.55 0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "407cf56a-0db5-429c-a310-ba5dccbf5b70")
+	)
+	(fp_rect
+		(start -2.6 -1.55)
+		(end 2.6 1.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d0007a9-3433-4b71-8b86-1f77b32724d4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52cbdab4-a12f-4e96-b29c-3d2c3f127532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.075 -1.075)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "56fbd37a-8425-4726-8ef2-b2c9dc1cab43")
+	)
+	(pad "1" smd roundrect
+		(at 2.075 -1.075)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "ad7896d0-b9b2-4e53-90a2-f56c3965b882")
+	)
+	(pad "2" smd roundrect
+		(at -2.075 1.075)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "ecbe3a71-c975-4a53-bdc8-1e32140f5188")
+	)
+	(pad "2" smd roundrect
+		(at 2.075 1.075)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "38a19292-5fd6-4f41-bc66-30a2cbcfda70")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/logic-analyzer.pretty/SW-SMD_4P-L4.2-W3.3-H2.5-P2.15-LS4.6.step"
+		(offset
+			(xyz 0 0 1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

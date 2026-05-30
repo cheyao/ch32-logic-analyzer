@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "logic-analyzer") (type "KiCad") (uri "${KIPRJMOD}/logic-analyzer.pretty") (options "") (descr ""))
+)
