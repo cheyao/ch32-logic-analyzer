@@ -32,3 +32,16 @@ Then routed out the PCB, took into acount the super-high-speed routes etc
 
 Also spent a bit of time fixing all the 3d models
 
+---
+
+Day 4 - 3h
+
+Changed the unavailable parts to something more common, and used a opamp to trigger the switch instead of mcu firmware. Studied this circuit a tiny bit.
+
+![](assets/7.png)
+
+Also re-did the high speed routing:
+
+![](assets/8.png)
+
+
