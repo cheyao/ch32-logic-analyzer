@@ -200,6 +200,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -14930,6 +15066,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 191.77) (xy 191.77 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9d56fc-f943-4267-9bac-931b2870398a")
+	)
+	(wire
+		(pts
 			(xy 321.31 134.62) (xy 313.69 134.62)
 		)
 		(stroke
@@ -16547,6 +16693,16 @@
 			(type default)
 		)
 		(uuid "f04f22a4-8b3c-476e-8e08-3eaf83f0cfc0")
+	)
+	(wire
+		(pts
+			(xy 203.2 191.77) (xy 203.2 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07227cc-b186-4e6e-89c7-b13b2240fa0e")
 	)
 	(wire
 		(pts
@@ -19175,7 +19331,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906860"
+		(property "LCSC Part #" "C106232"
 			(at 328.93 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -19645,6 +19801,84 @@
 			(project "logic-analyzer"
 				(path "/5f684d88-c692-47c7-8c9f-30135288a837"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "062bf272-182d-4f3f-8222-bcb844608cb5")
+		(property "Reference" "#PWR052"
+			(at 203.2 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc7c32db-de48-4689-90ea-7502d5cfbfd5")
+		)
+		(instances
+			(project "logic-analyzer"
+				(path "/5f684d88-c692-47c7-8c9f-30135288a837"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -20528,7 +20762,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -21630,7 +21864,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906864"
+		(property "LCSC Part #" "C106235"
 			(at 321.31 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -22155,7 +22389,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C54973456"
 			(at 74.93 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -24538,7 +24772,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906874"
+		(property "LCSC Part #" "C105872"
 			(at 265.43 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -26403,7 +26637,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C53454336"
+		(property "LCSC Part #" "C54920775"
 			(at 217.17 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -26812,7 +27046,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906874"
+		(property "LCSC Part #" "C105872"
 			(at 222.25 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -27169,7 +27403,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906874"
+		(property "LCSC Part #" "C105872"
 			(at 339.09 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -27927,7 +28161,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C53454336"
+		(property "LCSC Part #" "C54920775"
 			(at 217.17 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -28909,7 +29143,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906864"
+		(property "LCSC Part #" "C106235"
 			(at 339.09 127 0)
 			(hide yes)
 			(show_name no)
@@ -29238,7 +29472,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906874"
+		(property "LCSC Part #" "C105872"
 			(at 339.09 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -29575,7 +29809,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906874"
+		(property "LCSC Part #" "C105872"
 			(at 222.25 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -30183,7 +30417,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906864"
+		(property "LCSC Part #" "C106235"
 			(at 321.31 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -30544,6 +30778,87 @@
 			(project "logic-analyzer"
 				(path "/5f684d88-c692-47c7-8c9f-30135288a837"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 128.27 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b3e40650-f9f9-46bc-b4bd-aaf9e01b219e")
+		(property "Reference" "TP2"
+			(at 132.08 54.2924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 132.08 56.8324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6608f8a7-b102-4b4a-acf0-2c20874b7849")
+		)
+		(instances
+			(project "logic-analyzer"
+				(path "/5f684d88-c692-47c7-8c9f-30135288a837"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -31900,6 +32215,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 128.27 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c7548b71-e637-40c0-a310-11de4cc04938")
+		(property "Reference" "TP1"
+			(at 132.08 51.7524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 132.08 54.2924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 133.35 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 128.27 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75094c34-655c-4a9e-ac9e-498185b1e4da")
+		)
+		(instances
+			(project "logic-analyzer"
+				(path "/5f684d88-c692-47c7-8c9f-30135288a837"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 241.3 128.27 0)
 		(mirror y)
@@ -32513,7 +32909,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906860"
+		(property "LCSC Part #" "C106232"
 			(at 292.1 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -33016,6 +33412,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 191.77 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e5978ad7-c70a-4201-9433-266c7aa04355")
+		(property "Reference" "TP3"
+			(at 195.58 188.9124 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 195.58 191.4524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 196.85 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 191.77 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c95d40de-8221-401a-93d4-893f70a6b70c")
+		)
+		(instances
+			(project "logic-analyzer"
+				(path "/5f684d88-c692-47c7-8c9f-30135288a837"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 388.62 137.16 0)
 		(unit 1)
@@ -33326,7 +33803,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906864"
+		(property "LCSC Part #" "C106235"
 			(at 321.31 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -33672,6 +34149,87 @@
 				(path "/5f684d88-c692-47c7-8c9f-30135288a837"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 203.2 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f000856a-573c-4653-a568-1e94e253d4ed")
+		(property "Reference" "TP4"
+			(at 207.01 188.9124 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 207.01 191.4524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 208.28 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 203.2 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88fffd38-ba1b-4b10-9b0a-033110f7214b")
+		)
+		(instances
+			(project "logic-analyzer"
+				(path "/5f684d88-c692-47c7-8c9f-30135288a837"
+					(reference "TP4")
+					(unit 1)
 				)
 			)
 		)

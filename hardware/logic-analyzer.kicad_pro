@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -239,7 +239,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.45
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
@@ -247,7 +247,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.45
         }
       },
       "via_dimensions": [
@@ -727,7 +727,7 @@
         "uuid": "5f684d88-c692-47c7-8c9f-30135288a837"
       }
     ],
-    "used_designators": "JP1,TP1-2",
+    "used_designators": "",
     "variants": [
       {
         "name": "CH9441P"
