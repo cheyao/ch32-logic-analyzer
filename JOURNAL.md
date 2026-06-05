@@ -56,3 +56,23 @@ Polished everything and wrote the readme, you can see the difference between the
 
 :D
 
+---
+
+Day 6 - 4.6h
+
+![](assets/9.png)
+
+This time I thought about how to program the board lmao, broke out the swio pads.
+
+![](assets/11.png)
+
+Also changed the OPA to resistor devider to bom opt, and changed a lot of component numbers.
+
+Fixed the power planes, or more like optimized them
+
+![](assets/10.png)
+
+At the same time, I made a small breakout board to get bigger headers.
+
+Gotten a few quotes too! Been a pita
+
