@@ -74,5 +74,28 @@ Fixed the power planes, or more like optimized them
 
 At the same time, I made a small breakout board to get bigger headers.
 
-Gotten a few quotes too! Been a pita
+Gotten a few quotes too! Been a pita to add everything
 
+---
+
+Day 7 - 4.9h
+
+![](assets/12.png)
+
+Welp, guess what. I broke out more pins and added flucidals to the board
+
+Also improved routing on the back!
+
+![](assets/13.png)
+
+At the same time, I fixed the voltage regulator problem. Now 3v3 rail will be able to supply 1A of current.
+
+---
+
+Day 8, 9, 10 etc. - 3h
+
+![](assets/14.png)
+
+Improved USB SS signaling - got inter-pair skew low and also maintained more grounding
+
+Also did a lot of misc changes, you can see the difference in the picture
